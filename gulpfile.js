@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var uglify = require('gulp-uglify')
 var webpack = require('gulp-webpack');
 var webpackConfig = require('./webpack.config.js');
 
@@ -15,5 +16,6 @@ gulp.task('copyIndex', ['cleanBuild'], function () {
 gulp.task('build', ['copyIndex'], function (cb) {
   return gulp.src('')
   .pipe(webpack(webpackConfig))
+  .pipe(uglify())
   .pipe(gulp.dest(''));
 });
