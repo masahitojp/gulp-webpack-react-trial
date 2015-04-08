@@ -1,0 +1,15 @@
+{
+  "name": "gulp_webpack_reactjs_trial",
+  "description": "",
+  "version": "1.0.0",
+  "author": "masahitojp",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-webpack": "^1.3.1",
+    "jsx-loader": "^0.13.1",
+    "rimraf": "^2.3.2"
+  }
+}
